@@ -3,16 +3,16 @@
         <div class="Container" style="padding: 100px; text-align: center; ">
             <h1>¿Cómo contactarnos? ¡Aquí te lo explicamos!</h1>
             <div style="display: flex; justify-content: center; gap: 200px; box-shadow: 0cap; margin-top: 100px;">
-                <div>
-                <img :src="Contacto" style="height: 300px;"></img>
-                <p>ESTAMOS PARA AYUDARTE</p>
-                <button onclick="window.location.href='#maps'"  type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Ubicación Maps</button>
-                </div> 
+               
                 
 
                 <p style="width: 300px; text-align: justify; padding: 5%; box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.3);">
                 Para obtener más información sobre productos y precios, o para preguntar por piezas, entre otros trabajos por teléfono, contactanos llamando al 000-000-000-1111 o +56911111111.</p>
-
+ <div>
+                <img :src="Contacto" style="height: 300px;"></img>
+                <p>ESTAMOS PARA AYUDARTE</p>
+                <button onclick="window.location.href='#maps'"  type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Ubicación Maps</button>
+                </div> 
                 <p  class="texto-formateado" style="width: 300px; text-align: center; padding: 5%; box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.3);">
                 Síguenos en nuestras redes sociales. <br><br>
                 ➡️ nuestra pagina de Facebook: <a href="">aqui</a> <br><br>

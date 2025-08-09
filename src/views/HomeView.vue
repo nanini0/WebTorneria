@@ -1,10 +1,11 @@
 <template>
 
-  <div style="margin-top: 100px; text-align: center; padding: 30px;">
+ 
+  <div class="container "  >
+     <div style="margin-top: 100px; text-align: center; padding: 30px;">
     <h1>Bienvenidos a tu lugar de confianza</h1>
     <h3>la excelencia no se pierde</h3>
   </div>
-  <div class="container "  >
     <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
 
       <!-- Card izquierda -->
