@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="card text-bg-dark">
-      <img :src="ejemplo2" class="card-img" alt="Imagen de card">
+      <img :src="s1" class="card-img" alt="Imagen de card">
       <div class="card-img-overlay">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
@@ -10,7 +10,7 @@
     </div>
 
     <div class="card text-bg-dark">
-      <img :src="ejemplo2" class="card-img" alt="Imagen de card">
+      <img :src="s2" class="card-img" alt="Imagen de card">
       <div class="card-img-overlay">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
@@ -19,7 +19,7 @@
     </div>
 
     <div class="card text-bg-dark">
-      <img :src="ejemplo2" class="card-img" alt="Imagen de card">
+      <img :src="s3" class="card-img" alt="Imagen de card">
       <div class="card-img-overlay">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
@@ -30,7 +30,11 @@
 </template>
 
 <script setup>
-import ejemplo2 from '@/imagenes/ejemplo2.png'
+import s1 from '@/imagenes/service1.jpg'
+import s2 from '@/imagenes/service2.jpg'
+import s3 from '@/imagenes/service3.jpg'
+
+
 </script>
 
 <style scoped>

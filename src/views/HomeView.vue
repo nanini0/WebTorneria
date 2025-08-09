@@ -1,11 +1,15 @@
 <template>
 
-  <div class="container my-5" >
+  <div style="margin-top: 100px; text-align: center; padding: 30px;">
+    <h1>Bienvenidos a tu lugar de confianza</h1>
+    <h3>la excelencia no se pierde</h3>
+  </div>
+  <div class="container "  >
     <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
 
       <!-- Card izquierda -->
       <div class="card" style="width: 24rem; gap: auto;">
-        <img :src="ejemplo2" class="card-img-top" alt="...">
+        <img :src="t1" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">Texto de ejemplo para la tarjeta izquierda.</p>
         </div>
@@ -15,13 +19,13 @@
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="width: 100%; max-width: 30rem;">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img :src="ejemplo" class="d-block w-100" alt="Imagen 1" />
+            <img :src="t2" class="d-block w-100" alt="Imagen 1" />
           </div>
           <div class="carousel-item">
-            <img :src="ejemplo" class="d-block w-100" alt="Imagen 2" />
+            <img :src="t2" class="d-block w-100" alt="Imagen 2" />
           </div>
           <div class="carousel-item">
-            <img :src="ejemplo" class="d-block w-100" alt="Imagen 3" />
+            <img :src="t2" class="d-block w-100" alt="Imagen 3" />
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -36,7 +40,7 @@
 
       <!-- Card derecha -->
       <div class="card" style="width: 24rem;">
-        <img :src="ejemplo2" class="card-img-top" alt="...">
+        <img :src="t3" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">Texto de ejemplo para la tarjeta derecha.</p>
         </div>
@@ -48,13 +52,14 @@
 </template>
 
 <script setup>
-    import ejemplo from '@/imagenes/ejemplo.png'
-    import ejemplo2 from '@/imagenes/ejemplo2.png'
+    import t1 from '@/imagenes/t1.jpg'
+    import t2 from '@/imagenes/t2.jpg'
+    import t3 from '@/imagenes/t3.jpg'
 </script>
 <style  scoped>
 .container {
   max-width: 100%;
-  padding: 3rem 2rem;
+  padding: 2rem 1rem;
   min-height: 100vh; /* que cubra el alto inicial */
   display: flex;
   align-items: center;
@@ -63,7 +68,7 @@
 }
 
 .d-flex {
-  gap: 2rem;
+  gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;

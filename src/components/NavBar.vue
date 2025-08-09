@@ -19,7 +19,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav" >
         <li class="nav-item">
           <router-link class="nav-link" active-class="active" to="/">Inicio</router-link>
         </li>
@@ -34,7 +34,7 @@
           <router-link class="nav-link" active-class="active" to="/preguntas">preguntas Frecuentes</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="false">Disabled</a>
+          <router-link class="nav-link" active-class="active" to="/Contacto">Contacto</router-link>
         </li>
       </ul>
     </div>
@@ -53,10 +53,16 @@
 }
 .navbar-nav .nav-item {
   padding: 0 12px;
+  
 }
 .spinning-icon {
   animation: spin 2s linear infinite; /* Gira indefinidamente en 2 segundos */
   transform-origin: center; /* Rota desde el centro (opcional pero recomendado) */
+}
+.nav-item :hover{
+    background-color: #3367D6;
+    color: whitesmoke;
+
 }
 
 @keyframes spin {

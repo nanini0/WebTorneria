@@ -21,7 +21,7 @@
     <p>Calidad certificada y precisión de nivel superior respaldadas por nuestros clientes satisfechos.</p>
 
     <div class="grupo-imagen">
-      <img :src="ejemplo2" alt="Equipo" />
+      <img  style="height: 200px" :src="logo" alt="Equipo" />
     </div>
 
     <div class="beneficios-lista">
@@ -51,6 +51,7 @@
     import gg1 from '@/imagenes/gg1.png'
     import ejemplo2 from '@/imagenes/ejemplo2.png'
     import ejemplo3 from '@/imagenes/ejemplo3.png'
+    import logo from '@/imagenes/logo.png'
 </script>
 
 <style scoped>
